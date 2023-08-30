@@ -1,0 +1,336 @@
+.contact{
+    display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #f5edec;
+  padding-top: 150px;
+}
+
+.bottom-contact{
+     display: flex;
+    flex-direction: row;
+    width: 100vw;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: #f5edec;
+}
+
+
+
+.contact-information{
+    display: flex;
+    flex-direction: column; 
+    align-items: start;
+    justify-content: center;
+    margin-top: 100px;
+ 
+}
+
+.kids-con{
+    margin-left: 100px;
+}
+
+.kids-con-1{
+    margin-right: 100px;
+}
+
+.img-contact{
+    width: 12%;
+   max-width:80px;
+   padding: 20px;
+}
+
+.h1-contact{
+   padding: 40px;
+   color: #1B0238;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26.3px; /* 109.583% */
+    }
+
+.instagram{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.facebook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.whatsapp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    .contact{
+        display: flex;
+      flex-direction: column;
+      width: 100vw;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      background: #f5edec;
+      padding-top: 150px;
+    }
+    
+    .bottom-contact{
+         display: flex;
+        flex-direction: row;
+        width: 100vw;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        background: #f5edec;
+    }
+    
+    
+    
+    .contact-information{
+        display: flex;
+        flex-direction: column; 
+        align-items: start;
+        justify-content: center;
+        margin-top: 100px;
+     
+    }
+    .kids-con{
+       display: none;
+    }
+    
+    .kids-con-1{
+        display: none;
+    }
+    
+    .img-contact{
+       width: 40px;
+       height: 40px;
+       
+       
+    }
+    
+    .h1-contact{
+       color: #1B0238;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26.3px; /* 109.583% */
+        padding: 0;
+        }
+    
+    .instagram{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .facebook{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .whatsapp{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .email{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+    .contact{
+        display: flex;
+      flex-direction: column;
+      width: 100vw;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      background: #f5edec;
+      padding-top: 150px;
+    }
+    
+    .bottom-contact{
+         display: flex;
+        flex-direction: column;
+        width: 100vw;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        background: #f5edec;
+    }
+    
+    
+    
+    .contact-information{
+        display: flex;
+        flex-direction: column; 
+        align-items: start;
+        justify-content: start;
+        margin-top: 100px;
+     
+    }
+    .kids-con{
+       margin-top: 50px;
+       margin-left: 0;
+    }
+    
+    .kids-con-1{
+        margin-top: 50px;
+    }
+    
+    .img-contact{
+       width: 40px;
+       height: 40px;
+       
+       
+    }
+    
+    .h1-contact{
+        text-decoration: none;
+       color: #1B0238;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26.3px; /* 109.583% */
+        padding: 0;
+        }
+    
+    .instagram{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .facebook{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .whatsapp{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .email{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .contact{
+        display: flex;
+      flex-direction: column;
+      width: 100vw;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      background: #f5edec;
+      padding-top: 150px;
+    }
+    
+    .bottom-contact{
+         display: flex;
+        flex-direction: column;
+        width: 100vw;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        background: #f5edec;
+    }
+    
+    
+    
+    .contact-information{
+        display: flex;
+        flex-direction: column; 
+        align-items: start;
+        justify-content: start;
+        margin-top: 100px;
+     
+    }
+    .kids-con{
+       margin-top: 50px;
+       margin-left: 0;
+    }
+    
+    .kids-con-1{
+        margin-top: 50px;
+    }
+    
+    .img-contact{
+       width: 40px;
+       height: 40px;
+       
+       
+    }
+    
+    .h1-contact{
+        text-decoration: none;
+       color: #1B0238;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26.3px; /* 109.583% */
+        padding: 0;
+        }
+    
+    .instagram{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .facebook{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .whatsapp{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .email{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}

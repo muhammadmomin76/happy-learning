@@ -1,0 +1,834 @@
+.teacher {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #f5edec;
+  padding-top: 150px;
+}
+
+/*-------------------------top-t --------------------------------------*/
+
+.top-t {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5edec;
+}
+
+.actual-logo-t {
+  margin-left: 50px;
+  max-width: 150px;
+}
+
+.title-t {
+  color: #ea512e;
+  text-align: center;
+  font-family: "Chango";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42.5px; /* 60.714% */
+  text-transform: capitalize;
+}
+
+.dots-t {
+  max-width: 112px;
+  margin-right: 50px;
+}
+
+/*-------------------------middle-1 --------------------------------------*/
+
+.middle-t-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  max-width: 100%;
+  align-items: start;
+  justify-content: center;
+  background: #f5edec;
+}
+
+.mehwish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px 15px;
+  margin-top: 100px;
+}
+
+.pic {
+  max-width: 250px;
+}
+
+.name {
+  color: #ea512e;
+  text-align: center;
+  font-family: "Boogaloo";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42.5px; /* 106.25% */
+  text-transform: capitalize;
+  padding: 15px 0 15px;
+}
+
+.sameeda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px 15px;
+  margin-top: 100px;
+}
+
+/*-------------------------middle-2 --------------------------------------*/
+
+.middle-t-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #f5edec;
+}
+
+.des-co {
+  max-width: 1134px;
+  color: #1b0238;
+  text-align: center;
+  font-family: "Varela Round";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42.5px; /* 170% */
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+/*-------------------------teacher 1 --------------------------------------*/
+
+.middle-t-3 {
+    display: flex;
+    flex-direction:column;
+    width: 100vw;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #f5edec;
+  }
+
+.teacher-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-t{
+    display: flex;
+    flex-direction: row;
+}
+
+.teacher-t-d{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.img-tt{
+    max-width:200px;
+}
+
+.title-teacher{
+    color: #EA512E;
+    font-family: 'Boogaloo';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42.5px; /* 118.056% */
+    text-transform: capitalize;
+    max-width: 301px;
+}
+
+.desc-teacher{
+    color: #1B0238;
+    text-align: justify;
+    font-family: 'Varela Round';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.5px; /* 122% */
+    text-transform: capitalize;
+    max-width: 625px;
+    padding-top: 10px;
+}
+
+.teacher-2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher-4{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher-t-d-2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.teacher-t-d-4{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .top-t {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #f5edec;
+  }
+
+  .actual-logo-t {
+    display: none;
+    margin-left: 50px;
+    max-width: 150px;
+  }
+
+  .title-t {
+    color: #ea512e;
+    text-align: center;
+    font-family: "Chango";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42.5px; /* 60.714% */
+    text-transform: capitalize;
+    padding: 10px;
+  }
+
+  .dots-t {
+    display: none;
+    max-width: 112px;
+    margin-right: 50px;
+  }
+
+  /*-------------------------middle-1 --------------------------------------*/
+  .middle-t-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    max-width: 100%;
+    align-items: start;
+    justify-content: center;
+    background: #f5edec;
+  }
+
+  .mehwish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px 15px;
+    margin-top: 100px;
+  }
+
+  .pic {
+    width: 125%;
+    max-width: 250px;
+  }
+
+  .name {
+    color: #ea512e;
+    text-align: center;
+    font-family: "Boogaloo";
+    font-size:23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 106.25% */
+    text-transform: capitalize;
+    padding: 15px 0 15px;
+  }
+
+  .sameeda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px 15px;
+    margin-top: 100px;
+  }
+
+  /*-------------------------middle-2 --------------------------------------*/
+
+  .middle-t-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #f5edec;
+  }
+
+  .des-co {
+    max-width: 1134px;
+    color: #1b0238;
+    text-align: justify;
+    font-family: "Varela Round";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 170% */
+    text-transform: capitalize;
+    padding: 20px;
+  }
+
+/*-------------------------middle-3 --------------------------------------*/
+
+  .middle-t-3 {
+    display: flex;
+    flex-direction:column;
+    width: 100vw;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #f5edec;
+  }
+
+  /*-------------------------teacher-1 --------------------------------------*/
+
+.teacher-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-t{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.teacher-t-d{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-tt{
+    width: 80%;
+    max-width:200px;
+}
+
+.title-teacher{
+    color: #EA512E;
+    font-family: 'Boogaloo';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42.5px; /* 118.056% */
+    text-transform: capitalize;
+    max-width: 301px;
+}
+
+.desc-teacher{
+    color: #1B0238;
+    text-align: justify;
+    font-family: 'Varela Round';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.5px; /* 122% */
+    text-transform: capitalize;
+    max-width: 625px;
+    padding-top: 10px;
+}
+
+.teacher-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher-4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher-t-d-2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.teacher-t-d-4{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+    .top-t {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        background: #f5edec;
+      }
+    
+      .actual-logo-t {
+        display: none;
+        margin-left: 50px;
+        max-width: 150px;
+      }
+    
+      .title-t {
+        color: #ea512e;
+        text-align: center;
+        font-family: "Chango";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42.5px; /* 60.714% */
+        text-transform: capitalize;
+        padding: 10px;
+      }
+    
+      .dots-t {
+        display: none;
+        max-width: 112px;
+        margin-right: 50px;
+      }
+    
+      /*-------------------------middle-1 --------------------------------------*/
+      .middle-t-1 {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        max-width: 100%;
+        align-items: start;
+        justify-content: center;
+        background: #f5edec;
+      }
+    
+      .mehwish {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 30px 15px;
+        margin-top: 100px;
+      }
+    
+      .pic {
+        width: 100%;
+        max-width: 250px;
+      }
+    
+      .name {
+        color: #ea512e;
+        text-align: center;
+        font-family: "Boogaloo";
+        font-size:24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 106.25% */
+        text-transform: capitalize;
+        padding: 15px 0 15px;
+      }
+    
+      .sameeda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 30px 15px;
+        margin-top: 100px;
+      }
+
+      .middle-t-3 {
+        display: flex;
+        flex-direction:column;
+        width: 100vw;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        background: #f5edec;
+      }
+    
+      /*-------------------------teacher-1 --------------------------------------*/
+    
+    .teacher-1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .img-t{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .teacher-t-d{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .img-tt{
+        max-width:200px;
+    }
+    
+    .title-teacher{
+        color: #EA512E;
+        font-family: 'Boogaloo';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42.5px; /* 118.056% */
+        text-transform: capitalize;
+        max-width: 301px;
+    }
+    
+    .desc-teacher{
+        color: #1B0238;
+        text-align: justify;
+        font-family: 'Varela Round';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.5px; /* 122% */
+        text-transform: capitalize;
+        max-width: 625px;
+        padding-top: 10px;
+    }
+    
+      /*-------------------------middle-2 --------------------------------------*/
+    
+      .middle-t-2 {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        background: #f5edec;
+      }
+    
+      .des-co {
+        max-width: 1134px;
+        color: #1b0238;
+        text-align: justify;
+        font-family: "Varela Round";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 170% */
+        text-transform: capitalize;
+        padding: 20px;
+      }
+
+      .teacher-2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .teacher-4{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .teacher-t-d-2{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .teacher-t-d-4{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .top-t {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        background: #f5edec;
+      }
+    
+      .actual-logo-t {
+        display: none;
+        margin-left: 50px;
+        max-width: 150px;
+      }
+    
+      .title-t {
+        color: #ea512e;
+        text-align: center;
+        font-family: "Chango";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42.5px; /* 60.714% */
+        text-transform: capitalize;
+        padding: 10px;
+      }
+    
+      .dots-t {
+        display: none;
+        max-width: 112px;
+        margin-right: 50px;
+      }
+    
+      /*-------------------------middle-1 --------------------------------------*/
+      .middle-t-1 {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        max-width: 100%;
+        align-items: start;
+        justify-content: center;
+        background: #f5edec;
+      }
+    
+      .mehwish {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 30px 15px;
+        margin-top: 100px;
+      }
+    
+      .pic {
+        width: 100%;
+        max-width: 250px;
+      }
+    
+      .name {
+        color: #ea512e;
+        text-align: center;
+        font-family: "Boogaloo";
+        font-size:24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 106.25% */
+        text-transform: capitalize;
+        padding: 15px 0 15px;
+      }
+    
+      .sameeda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 30px 15px;
+        margin-top: 100px;
+      }
+    
+      /*-------------------------middle-2 --------------------------------------*/
+    
+      .middle-t-2 {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        background: #f5edec;
+      }
+    
+      .des-co {
+        max-width: 1134px;
+        color: #1b0238;
+        text-align: justify;
+        font-family: "Varela Round";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 170% */
+        text-transform: capitalize;
+        padding: 20px;
+      }
+
+
+      .middle-t-3 {
+        display: flex;
+        flex-direction:column;
+        width: 100vw;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        background: #f5edec;
+      }
+    
+      /*-------------------------teacher-1 --------------------------------------*/
+    
+    .teacher-1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .img-t{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .teacher-t-d{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .img-tt{
+        max-width:200px;
+    }
+    
+    .title-teacher{
+        color: #EA512E;
+        font-family: 'Boogaloo';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42.5px; /* 118.056% */
+        text-transform: capitalize;
+        max-width: 301px;
+    }
+    
+    .desc-teacher{
+        color: #1B0238;
+        text-align: justify;
+        font-family: 'Varela Round';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.5px; /* 122% */
+        text-transform: capitalize;
+        max-width: 625px;
+        padding-top: 10px;
+    }
+
+    .teacher-2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .teacher-4{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .teacher-t-d-2{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .teacher-t-d-4{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
